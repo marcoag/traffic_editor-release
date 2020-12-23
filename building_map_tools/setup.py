@@ -46,7 +46,6 @@ setup(
     ],
     description='building_map_tools',
     license='Apache License, Version 2.0',
-    setup_requires = ['pytest-runner'],
     tests_require=['pytest'],
     scripts=[],
     entry_points={
