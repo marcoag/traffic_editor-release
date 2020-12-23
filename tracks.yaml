@@ -73,5 +73,5 @@ tracks:
     release_tag: :{version}
     ros_distro: rolling
     vcs_type: git
-    vcs_uri: https://github.com/osrf/traffic_editor.git
+    vcs_uri: https://github.com/marcoag/traffic_editor.git
     version: :{auto}
