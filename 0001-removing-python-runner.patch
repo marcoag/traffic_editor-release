@@ -1,0 +1,29 @@
+From adf866ee8426c31950f446ab9f0b1917ea1e5f7b Mon Sep 17 00:00:00 2001
+From: "Marco A. Gutierrez" <marco@openrobotics.org>
+Date: Thu, 24 Dec 2020 12:20:55 +0800
+Subject: [PATCH] removing python-runner
+
+Signed-off-by: Marco A. Gutierrez <marco@openrobotics.org>
+---
+ setup.cfg | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+diff --git a/setup.cfg b/setup.cfg
+index e54e17e..559c2cd 100644
+--- a/setup.cfg
++++ b/setup.cfg
+@@ -4,9 +4,8 @@ script-dir=$base/lib/building_map_tools
+ install-scripts=$base/lib/building_map_tools
+ 
+ [options]
+-setup_requires = pytest-runner
+ tests_require = pytest
+ 
+ [tool:pytest]
+ addopts = --verbose
+-testpaths = test
+\ No newline at end of file
++testpaths = test
+-- 
+2.25.1
+
